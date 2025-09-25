@@ -1,12 +1,14 @@
-import './App.css'
+import "./App.css";
+import Bulb from "./components/Bulb";
+import Counter from "./components/Counter";
 
 function App() {
-
   return (
     <>
-      <h1>안녕 리엑트!?</h1>
+      <Bulb />
+      <Counter />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
